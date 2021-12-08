@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Header": {
+      "displayName": "Header",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header",
+      "required": true
+    },
+    "AboutProject": {
+      "displayName": "About Project",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about-project"
+    },
+    "Technologies": {
+      "displayName": "Technologies",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.technologies"
+    },
+    "ConceptsList": {
+      "displayName": "Concepts List",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.concepts-list"
+    }
+  }
+}
