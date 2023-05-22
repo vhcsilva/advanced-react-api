@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_technologies_item",
+  "info": {
+    "displayName": "Technologies",
+    "icon": "toolbox"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Technology": {
+      "displayName": "Technology",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.technology"
+    }
+  }
+}
