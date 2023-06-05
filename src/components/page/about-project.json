@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_about_projects",
+  "info": {
+    "displayName": "About Project",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
