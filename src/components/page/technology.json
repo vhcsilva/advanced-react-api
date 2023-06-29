@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_technologies",
+  "info": {
+    "displayName": "Technology",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
